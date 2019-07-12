@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "alias": "aliased-ssng-cambridge",
+  "name": "ssng-cambridge",
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }]
+}

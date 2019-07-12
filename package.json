@@ -1,0 +1,33 @@
+{
+  "name": "schoolstoreng-cambridge",
+  "version": "1.0.0",
+  "description": "Static website for Schoolstoreng",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8000",
+    "start": "next",
+    "build": "next build",
+    "export": "next export -o dist",
+    "prod": "rm -rf node_modules/.cache build dist && next build && next export -o dist",
+    "prod-test": "http-server dist -p 4000 -o",
+    "deploy": "npm run prod && ./deploy.sh",
+    "now-build": "next build && next export -o dist",
+    "now-dev": "next -p 5000"
+  },
+  "author": "Kujebe Seun",
+  "license": "ISC",
+  "devDependencies": {
+    "@material-ui/core": "^4.2.0",
+    "@zeit/next-sass": "^1.0.1",
+    "brotli-webpack-plugin": "^1.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "next": "^9.0.0",
+    "next-compose-plugins": "^2.2.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-jss": "^8.6.1",
+    "recursive-copy": "^2.0.10"
+  }
+}
