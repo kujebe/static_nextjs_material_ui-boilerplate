@@ -29,5 +29,8 @@
     "react-dom": "^16.8.6",
     "react-jss": "^8.6.1",
     "recursive-copy": "^2.0.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.14"
   }
 }
