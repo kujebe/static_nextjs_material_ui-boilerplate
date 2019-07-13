@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "aliased-ssng-cambridge",
-  "name": "ssng-cambridge",
+  "alias": "static-nextjs-boilerplate",
+  "name": "static-nextjs-boilerplate",
   "builds": [{ "src": "package.json", "use": "@now/static-build" }]
 }
