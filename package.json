@@ -31,6 +31,6 @@
     "recursive-copy": "^2.0.10"
   },
   "dependencies": {
-    "lodash": "^4.17.14"
+    "lodash": "^4.17.21"
   }
 }
